@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Registration page</title>
+	<style type="text/css">
+		body{
+			background-color: hotpink;
+			background-image: url("bg-intro-desktop.png");
+
+		}
+		input[type=text], input[type=password] {
+			width: 90%;
+			font-size: 16px; 
+			padding: 15px;
+			margin: 5px 4px 5px 3px;
+			display: inline-block;
+			border: 1%;
+			font-family: Poppins 'https://fonts.google.com/specimen/Poppins';
+			font-size: large;
+			margin-top: 2px;
+			margin-bottom: 2px;
+			border-radius: 6px;
+			color: hsl(249, 10%, 26%);
+
+
+			
+		}
+
+
+		.bdy{
+			text-align: left;
+			margin-left: 10em;
+			margin-top: 100px;
+			margin-right: 10em;
+			color: white;
+
+
+		}
+
+		.reg{
+			text-align: -webkit-right;
+			margin-right: 10em;
+			margin-left: 2em;
+			width: 100%;
+
+
+		}
+
+		.container{
+			width: 100%;
+			min-width: 375px;
+			max-width: 1440px;
+			display: flex;	
+			margin-top: 4em;
+			
+		}
+
+		.hdr{
+			width: 100%;
+			background-color: hsl(248, 32%, 49%);
+			margin-top: 5px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			text-align: center;
+			color: hsl(246, 25%, 77%);
+			font-size: 18px;
+			padding-top: 1em;
+			padding-bottom: 1em; 
+
+		}
+
+		.tbe{
+			background-color: white;
+			width: 100%;
+			text-align: center;
+			height: 80%;
+			padding: 16px;
+			border-radius: 5px;
+
+		}
+
+
+		.btn{
+			background-color: hsl(154, 59%, 51%);
+			color: white;
+			padding: 17px;
+			cursor: pointer;
+			width: 100%;
+			border: none;
+			border-radius: 6px;
+			margin: 5px 4px 5px 3px;
+
+
+		}
+
+		.ftr{
+			text-align: center;
+			font-size: smaller;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<div class="bdy">
+
+			<h1 style="font-size: xxx-large;">Learn to code by watching others</h1>
+			<br>
+			See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+		</div>
+
+		<div class="reg">
+			<div class="hdr">
+				<header>
+					<b style="color: white;">Try it free 7 days</b> then $20/mo thereafter
+				</header>
+			</div>
+			
+				<table class="tbe">
+					<form action="#">
+						<tr>
+							<td>
+								<input type="text" placeholder="First Name" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" placeholder="Last Name" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" placeholder="Email Address" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" placeholder="Password" required>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<button class="btn">CLAIM YOUR FREE TRIAL</button>
+							</td>
+						</tr>
+						
+						
+						<tr>
+							<td>
+								<footer class="ftr">
+				By clicking the botton, you are agreeing to our <b style="color: hsl(0, 100%, 74%);">Terms and Services</b>.
+			</footer>
+							</td>
+						</tr>
+					</form>
+
+
+				</table>
+
+			
+			
+			
+		</div>
+
+	</div>
+</body>
+</html>
