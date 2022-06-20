@@ -9,7 +9,8 @@
 		body{
 			background-color: hotpink;
 			background-image: url("bg-intro-desktop.png");
-			display: flex;
+			
+			
 
 		}
 		input[type=text], input[type=password] {
@@ -17,7 +18,6 @@
 			font-size: 16px; 
 			padding: 15px;
 			margin: 5px 4px 5px 3px;
-			display: inline-block;
 			border: 1%;
 			font-family: Poppins 'https://fonts.google.com/specimen/Poppins';
 			font-size: 16px;
@@ -25,8 +25,6 @@
 			margin-bottom: 2px;
 			border-radius: 6px;
 			color: hsl(249, 10%, 26%);
-
-
 			
 		}
 
@@ -37,6 +35,8 @@
 			margin-top: 100px;
 			margin-right: 10em;
 			color: white;
+			background-size: relative;
+			
 
 
 		}
@@ -46,17 +46,21 @@
 			margin-right: 10em;
 			margin-left: 2em;
 			width: 100%;
-			background-size: 80%;
+			background-size: relative;
+			flex-direction: relative;
+			
 
 
 		}
 
 		.container{
 			width: 100%;
-			min-width: 375px;
-			max-width: 1440px;
+			
 			display: flex;	
 			margin-top: 4em;
+			flex-direction: row;
+			position: relative;
+
 			
 		}
 
@@ -81,6 +85,8 @@
 			height: 80%;
 			padding: 16px;
 			border-radius: 5px;
+			flex-direction: column;
+
 
 		}
 
@@ -103,46 +109,21 @@
 			font-size: smaller;
 		}
 
-		@media screen and (max-width: 375px ) {
- body {
-  text-align: center;
-  background-image: url(bg-intro-mobile.png);
- }
-div.bd {
-  flex-direction: row;
- }
-
-div.reg{
-	flex-direction: row;
-}
-.header-img {
-  margin-top: 40px;
-  margin-left: 0;
-  width: 100%;
- }
-.flex {
+@media screen and (max-width: 580px)  {
+ .container {
   flex-direction: column;
- }
-.reg{
-  flex-direction: column-reverse;
- display: flex;
- align-items: center;
-}
-.reg > div,
-.flex > table {
- flex: 1;
-}
-
 
  }
-footer ul {
-  padding: 0;
-  width: 100%;
+ body{
+ 	background-image: url(bg-intro-mobile.png);
+
  }
-footer p {
-  text-align: center;
+
+ .reg{
+ 	margin: 3em;
+ 	margin-right: 3em;
  }
-}
+
 
 	</style>
 </head>
